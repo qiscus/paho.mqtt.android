@@ -7,10 +7,10 @@ buildscript {
         google()
     }
     dependencies {
-	    classpath 'com.android.tools.build:gradle:7.3.1'
+	    classpath 'com.android.tools.build:gradle:7.2.2'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
-        classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.7.3"
+        classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.24.18"
     }
 }
 
@@ -22,10 +22,10 @@ ext{
     group = 'org.eclipse.paho'
 
     sampleArchivesBaseName = 'org.eclipse.paho.android.sample'
-    sampleVersion = '1.1.6'
+    sampleVersion = '1.1.7'
 
     serviceArchivesBaseName = 'org.eclipse.paho.android.service'
-    serviceVersion = '1.1.6'
+    serviceVersion = '1.1.7'
 
     clientVersion = '1.1.1'
 
