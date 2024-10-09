@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 31
+        targetSdkVersion 33
 
         testApplicationId "org.eclipse.paho.android.service.test"
     }
@@ -25,7 +25,7 @@ android {
     lintOptions {
         abortOnError false
     }
-    buildToolsVersion '26.0.3'
+    buildToolsVersion '30.0.3'
 }
 
 repositories {

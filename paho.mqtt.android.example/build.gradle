@@ -22,7 +22,7 @@ android {
     lintOptions {
         abortOnError false
     }
-    buildToolsVersion '26.0.2'
+    buildToolsVersion '30.0.3'
 }
 
 repositories {
@@ -33,9 +33,9 @@ repositories {
 dependencies {
     implementation fileTree(dir: 'libs', excludes: ["org.eclipse.paho.client.mqttv3-${rootProject.ext.clientVersion}.jar"], include: '*.jar')
     testImplementation 'junit:junit:4.12'
-    implementation 'androidx.appcompat:appcompat:1.0.0'
-    implementation 'com.google.android.material:material:1.0.0'
-    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.6.0'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
     implementation "org.eclipse.paho:org.eclipse.paho.client.mqttv3:${rootProject.ext.clientVersion}"
 //    compile (project(':org.eclipse.paho.android.service')){
 //        exclude module: "org.eclipse.paho.client.mqttv3"
